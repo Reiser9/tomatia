@@ -1,0 +1,19 @@
+.main__check{
+	margin-top: 1.5rem;
+}
+
+.main__check:first-child{
+	margin-top: 0;
+}
+
+.check__icon--inner{
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	background: var(--mainC);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 1rem;
+	flex-shrink: 0;
+}

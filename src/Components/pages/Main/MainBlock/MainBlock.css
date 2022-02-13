@@ -1,0 +1,51 @@
+.main__text--inner{
+	max-width: 700px;
+}
+
+.main__img--inner{
+	max-width: 300px;
+	animation: levitation 1.5s linear infinite;
+}
+
+@keyframes levitation{
+	0%{
+		transform: translateY(0);
+	}
+	35%{
+		transform: translateY(-25px);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+
+.main__title{
+	
+}
+
+@media(max-width: 998px){
+	.main__img--inner{
+		margin-left: 3rem;
+	}
+}
+
+@media(max-width: 768px){
+	.main__inner, .sale__inner{
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.main__inner{
+		flex-direction: column;
+	}
+
+	.main__img--inner{
+		margin: 4rem 0rem 0rem 0rem;
+	}
+}
+
+@media(max-width: 480px){
+	.main__img--inner{
+		max-width: 100%;
+	}
+}

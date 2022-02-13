@@ -1,0 +1,142 @@
+.catalog{
+	background: #F2F5FF;
+}
+
+.catalog__content{
+	display: flex;
+	align-items: stretch;
+	flex-wrap: wrap;
+	margin-top: 5rem;
+}
+
+.catalog__content.m2{
+	margin-top: 2rem;
+}
+
+.catalog__item{
+	max-width: 22.5%;
+	border: 1px solid #55AD60;
+	border-radius: 10px;
+	padding: 1rem;
+	position: relative;
+	background: #fff;
+	justify-content: space-between;
+	margin: 4rem 4rem 0rem 0rem;
+}
+
+.catalog__item:nth-child(4n){
+	margin-right: 0;
+}
+
+.catalog__item:first-child,
+.catalog__item:nth-child(2),
+.catalog__item:nth-child(3),
+.catalog__item:nth-child(4){
+	margin-top: 0;
+}
+
+.catalog__item--img--inner{
+	height: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.catalog__item--img{
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.catalog__item--price{
+	font-size: 2rem;
+}
+
+.catalog__operator{
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	border: 1px solid var(--mainC);
+	background: var(--mainC);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-size: 2rem;
+	cursor: pointer;
+	transition: .2s linear;
+}
+
+.catalog__operator:hover{
+	background: #fff;
+	color: var(--mainC);
+}
+
+.catalog__item--value{
+	margin: 0rem 0.5rem;
+	width: 40px;
+	height: 40px;
+	border: 1px solid var(--mainC);
+	border-radius: 50%;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media(max-width: 1220px){
+	.catalog__item--img--inner{
+		height: 198px;
+	}
+
+	.catalog__item{
+		margin-right: 3.26rem;
+	}
+}
+
+@media(max-width: 998px){
+	.catalog__item{
+		max-width: 48%;
+		margin: 3rem 0 0 0;
+	}
+
+	.catalog__item:first-child,
+	.catalog__item:nth-child(2){
+		margin-top: 0;
+	}
+
+	.catalog__content{
+		margin-top: 3rem;
+		justify-content: space-between
+	}
+
+	.catalog__item:nth-child(3),
+	.catalog__item:nth-child(4){
+		margin-top: 3rem;
+	}
+
+	.catalog__item--img--inner{
+		height: 249px;
+	}
+}
+
+@media(max-width: 768px){
+	.catalog__item--img--inner{
+		height: 198px;
+	}
+}
+
+@media(max-width: 480px){
+	.catalog__item{
+		max-width: 100%;
+	}
+
+	.catalog__item, .catalog__item:nth-child(2){
+		margin-top: 2rem;
+	}
+
+	.catalog__item--img--inner{
+		height: 249px;
+	}
+}

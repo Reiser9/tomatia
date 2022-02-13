@@ -1,0 +1,35 @@
+.hit__button{
+	background: #fff;
+	color: var(--mainC);
+}
+
+.hit__button.active{
+	background: var(--mainC);
+	color: #fff;
+}
+
+.img__load{
+	display: none;
+}
+
+.label__img{
+	cursor: pointer;
+	color: #fff;
+	background: var(--mainC);
+	padding: 0.9rem 1rem;
+	text-align: center;
+}
+
+.video__admin{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.delete__button--video--admin{
+	margin-left: 2rem;
+}
+
+.video__admin--link{
+	word-break: break-all;
+}

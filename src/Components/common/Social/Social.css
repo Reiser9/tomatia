@@ -1,0 +1,17 @@
+.social__inner{
+    margin-right: 5rem;
+}
+
+.social__link{
+    margin-right: 1.5rem;
+    width: 30px;
+    display: flex;
+}
+
+.social__link:last-child{
+    margin-right: 0;
+}
+
+.social__link:hover{
+    opacity: 0.6;
+}

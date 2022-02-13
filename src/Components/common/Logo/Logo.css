@@ -1,0 +1,10 @@
+.logo__inner{
+    display: flex;
+    width: 80px;
+    flex-shrink: 0;
+}
+
+.logo{
+    width: 100%;
+    height: auto;
+}

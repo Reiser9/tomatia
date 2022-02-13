@@ -1,0 +1,24 @@
+.sale{
+	padding: 2rem 0rem 6rem 0;
+}
+
+.sale__img--inner{
+	max-width: 246px;
+	margin-right: 5rem;
+}
+
+.sale__text{
+	font-size: 2rem;
+}
+
+@media(max-width: 768px){
+	.sale__img--inner{
+		margin: 3rem 0rem 0rem 0rem;
+	}
+}
+
+@media(max-width: 480px){
+	.sale{
+		padding: 4rem 0;
+	}
+}
